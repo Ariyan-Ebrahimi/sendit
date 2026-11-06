@@ -2,7 +2,7 @@
 
 Handles Sendit accounts (sign up / sign in) and worldwide transfers: a phone uploads a file, gets a 6-character code, and anyone with the code can download it for 24 hours. Expired files are deleted automatically every 30 minutes.
 
-Built with Node.js and PostgreSQL. It runs on port **4000**. The app gets its server address at build time from `sendit.serverUrl` in `BeamDrop/local.properties`.
+Built with Node.js and PostgreSQL. It runs on port **4000**. The app gets its server address at build time from `sendit.serverUrl` in `sendit/local.properties`.
 
 ---
 

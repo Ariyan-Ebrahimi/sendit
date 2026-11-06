@@ -97,7 +97,7 @@ Download the latest **`Sendit.apk`** from [Releases](https://github.com/Ariyan-E
 
 ```
 sendit/
-├── BeamDrop/   Android app — Kotlin, Jetpack Compose, Media3, WorkManager
+├── sendit/     Android app — Kotlin, Jetpack Compose, Media3, WorkManager
 └── server/     Relay server — Node.js, Express, PostgreSQL + admin panel at /admin
 ```
 
@@ -119,17 +119,17 @@ flowchart LR
 
 **App**
 
-1. Add your server address to `BeamDrop/local.properties` (this file is never committed):
+1. Add your server address to `sendit/local.properties` (this file is never committed):
    ```properties
    sendit.serverUrl=http://your-server:4000
    ```
    Without it the app uses `http://10.0.2.2:4000` (your PC, seen from the Android emulator).
 2. Build:
    ```bash
-   cd BeamDrop
+   cd sendit
    ./gradlew assembleRelease
    ```
-   The APK lands in `BeamDrop/app/build/outputs/apk/release/`.
+   The APK lands in `sendit/app/build/outputs/apk/release/`.
 
 **Server**
 

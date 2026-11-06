@@ -19,6 +19,10 @@ Codes work in the app or in any browser, and files you send to people are end-to
 
 <br>
 
+https://github.com/user-attachments/assets/0dc7662d-be4f-43e2-81ce-2605c914e598
+
+<br>
+
 <img src="docs/screenshots/home.png" width="23%" alt="Home screen">&nbsp;
 <img src="docs/screenshots/send-options.png" width="23%" alt="Send options">&nbsp;
 <img src="docs/screenshots/people-encrypted.png" width="23%" alt="Sending encrypted to a contact">&nbsp;

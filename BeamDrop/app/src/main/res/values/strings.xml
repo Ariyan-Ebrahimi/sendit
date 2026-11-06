@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sendit</string>
+    <string name="widget_send">Send</string>
+    <string name="widget_receive">Receive</string>
+    <string name="widget_description">Send or receive files in one tap</string>
+    <string name="shortcut_send">Send files</string>
+    <string name="shortcut_receive">Receive</string>
+    <string name="shortcut_scan">Scan QR code</string>
+    <string name="shortcut_my_files">My files</string>
+</resources>

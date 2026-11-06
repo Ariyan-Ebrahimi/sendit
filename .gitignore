@@ -1,0 +1,25 @@
+# Android
+.gradle/
+.kotlin/
+build/
+captures/
+.idea/
+*.iml
+# holds your SDK path and your server address (sendit.serverUrl)
+local.properties
+*.keystore
+*.jks
+*.apk
+*.aab
+*-log*.txt
+
+# Server
+node_modules/
+.env
+server/uploads/
+server/backups/
+server/app-download/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+<resources>
+    <string name="widget_send">ارسال</string>
+    <string name="widget_receive">دریافت</string>
+    <string name="widget_description">ارسال یا دریافت فایل با یک لمس</string>
+    <string name="shortcut_send">ارسال فایل</string>
+    <string name="shortcut_receive">دریافت</string>
+    <string name="shortcut_scan">اسکن کد QR</string>
+    <string name="shortcut_my_files">فایل‌های من</string>
+</resources>

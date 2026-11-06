@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Received files on Android 8-9 (Downloads/Sendit) -->
+    <external-path name="downloads" path="Download/" />
+    <!-- Smaller copies of photos/videos made before upload -->
+    <cache-path name="cache" path="." />
+    <!-- Hidden vault (opened for viewing only) -->
+    <files-path name="vault" path="vault/" />
+</paths>

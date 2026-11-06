@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sendit</string>
+    <string name="widget_send">Gönder</string>
+    <string name="widget_receive">Al</string>
+    <string name="widget_description">Tek dokunuşla dosya gönder veya al</string>
+    <string name="shortcut_send">Dosya gönder</string>
+    <string name="shortcut_receive">Al</string>
+    <string name="shortcut_scan">QR kod tara</string>
+    <string name="shortcut_my_files">Dosyalarım</string>
+</resources>

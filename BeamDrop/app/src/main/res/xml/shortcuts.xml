@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="send"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_send"
+        android:shortcutShortLabel="@string/shortcut_send">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.beamdrop.app"
+            android:targetClass="com.beamdrop.app.MainActivity">
+            <extra android:name="open_screen" android:value="send" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="receive"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_receive"
+        android:shortcutShortLabel="@string/shortcut_receive">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.beamdrop.app"
+            android:targetClass="com.beamdrop.app.MainActivity">
+            <extra android:name="open_screen" android:value="receive" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="scan"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_scan"
+        android:shortcutShortLabel="@string/shortcut_scan">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.beamdrop.app"
+            android:targetClass="com.beamdrop.app.MainActivity">
+            <extra android:name="open_screen" android:value="scan" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="my_files"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_files"
+        android:shortcutShortLabel="@string/shortcut_my_files">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.beamdrop.app"
+            android:targetClass="com.beamdrop.app.MainActivity">
+            <extra android:name="open_screen" android:value="my_files" />
+        </intent>
+    </shortcut>
+</shortcuts>
